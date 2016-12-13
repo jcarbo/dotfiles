@@ -1,0 +1,31 @@
+"*":
+  core:
+    customFileTypes:
+      "source.css.less": [
+        "overrides"
+        "variables"
+      ]
+    telemetryConsent: "limited"
+    themes: [
+      "atom-dark-ui"
+      "behave-theme"
+    ]
+  editor:
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "7d314521-3b6a-7f88-7007-238765ca1a12"
+  linter:
+    lintOnFlyInterval: 1000
+  metrics:
+    userId: "2c69c6a11ce23ba27f7014861bd582439a757965"
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
+  "release-notes":
+    viewedVersion: "0.73.0"
+  welcome:
+    showOnStartup: false

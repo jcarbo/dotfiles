@@ -1,1 +1,9 @@
 *.DS_Store
+
+symlinks/.atom/.apm
+symlinks/.atom/.node-gyp
+symlinks/.atom/blob-store
+symlinks/.atom/compile-cache
+symlinks/.atom/dev
+symlinks/.atom/packages
+symlinks/.atom/storage
