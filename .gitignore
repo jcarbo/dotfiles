@@ -7,3 +7,5 @@ symlinks/.atom/compile-cache
 symlinks/.atom/dev
 symlinks/.atom/packages
 symlinks/.atom/storage
+
+symlinks/.bashrc.secrets
