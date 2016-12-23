@@ -9,3 +9,5 @@ symlinks/.atom/packages
 symlinks/.atom/storage
 
 symlinks/.bashrc.secrets
+
+Gemfile.lock
