@@ -10,6 +10,25 @@ if [ ! -f "`which rvm`" ]; then
   \curl -sSL https://get.rvm.io | bash -s stable --ruby
 fi
 
+# Install applications and packages
+brew bundle --verbose
+
+# Post-brew
+brew link qt55 --force
+neo4j restart
+mkdir -p ~/.nvm
+
+# Install Bundler
+if [ ! -f "`which bundle`" ]; then
+  gem install bundler
+fi
+
+# Install global Ruby gems
+bundle
+
+# Install npm packages
+yarn global add react-native-cli
+
 # http://stackoverflow.com/a/9107028
 DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 DOTFILES_ARCHIVE_DIR=$(echo $DOTFILES_DIR | sed "s|dotfiles|old-dotfiles|")
@@ -54,6 +73,12 @@ defaults write com.apple.dock autohide -bool true
 # Save screenshots to the desktop
 mkdir -p $SCREENSHOTS_DIR
 defaults write com.apple.screencapture location $SCREENSHOTS_DIR
+
+# Disable smart quotes as they’re annoying when typing code
+defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
+
+# Disable smart dashes as they’re annoying when typing code
+defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 
 ###############################################################################
 # Kill affected applications                                                  #

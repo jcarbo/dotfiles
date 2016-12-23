@@ -13,17 +13,8 @@ export EDITOR="atom -w"
 # This loads RVM into the shell session
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
-export NVM_DIR="/Users/jeffcarbonella/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-
-# export PGHOST="/tmp"
-
-# export SSL_CERT_FILE=/usr/local/opt/curl-ca-bundle/share/ca-bundle.crt
-
-# Get the aliases and functions
-# if [ -f ~/.bashrc ]; then
-#   . ~/.bashrc
-# fi
+export NVM_DIR="$HOME/.nvm"
+[[ -s $(brew --prefix)/opt/nvm/nvm.sh ]] && source $(brew --prefix)/opt/nvm/nvm.sh
 
 [ -f ~/.gpg-agent-info ] && source ~/.gpg-agent-info
 if [ -S "${GPG_AGENT_INFO%%:*}" ]; then
