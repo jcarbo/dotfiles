@@ -5,6 +5,9 @@
         "overrides"
         "variables"
       ]
+      "source.js.jsx": [
+        "js"
+      ]
     telemetryConsent: "limited"
     themes: [
       "atom-dark-ui"
@@ -12,6 +15,7 @@
     ]
   editor:
     invisibles: {}
+    scrollPastEnd: true
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
@@ -20,6 +24,8 @@
     userId: "7d314521-3b6a-7f88-7007-238765ca1a12"
   linter:
     lintOnFlyInterval: 1000
+  "markdown-preview-plus-opener":
+    closePreviewWhenClosingEditor: true
   metrics:
     userId: "2c69c6a11ce23ba27f7014861bd582439a757965"
   "package-sync":
