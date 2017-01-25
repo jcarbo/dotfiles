@@ -22,6 +22,7 @@
     tabType: "soft"
   "exception-reporting":
     userId: "7d314521-3b6a-7f88-7007-238765ca1a12"
+  "fold-functions": {}
   linter:
     lintOnFlyInterval: 1000
   "markdown-preview-plus-opener":
