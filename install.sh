@@ -11,7 +11,7 @@ if [ ! -f "`which rvm`" ]; then
 fi
 
 # Install applications and packages
-brew bundle --verbose
+brew bundle --verbose --no-upgrade
 
 # Post-brew
 brew link qt55 --force
@@ -29,6 +29,9 @@ bundle
 
 # Install npm packages
 yarn global add react-native-cli
+
+# Sync files from lastpass
+sh lastpass-pull.sh
 
 # http://stackoverflow.com/a/9107028
 DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
