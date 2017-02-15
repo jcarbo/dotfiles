@@ -13,6 +13,8 @@ symlinks/.atom/dev
 symlinks/.atom/packages
 symlinks/.atom/storage
 
+symlinks/.aws/credentials
+
 symlinks/.bashrc.secrets
 
 Gemfile.lock
