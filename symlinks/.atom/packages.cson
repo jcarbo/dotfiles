@@ -1,6 +1,7 @@
 packages: [
   "atom-html-preview"
   "atom-monokai"
+  "atom-typescript"
   "behave-theme"
   "change-case"
   "docblockr"

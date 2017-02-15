@@ -15,8 +15,9 @@ brew bundle --verbose
 
 # Post-brew
 brew link qt55 --force
-neo4j restart
 mkdir -p ~/.nvm
+# Install the LastPass binary
+# open /usr/local/Caskroom/lastpass/latest/LastPass\ Installer.app/
 
 # Install Bundler
 if [ ! -f "`which bundle`" ]; then

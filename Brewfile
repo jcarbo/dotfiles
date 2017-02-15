@@ -15,6 +15,7 @@ cask 'istat-menus'
 cask 'iterm2'
 cask 'java'
 cask 'joinme'
+cask 'lastpass'
 cask 'recordit'
 cask 'slack-beta'
 cask 'spotify'
@@ -34,6 +35,7 @@ brew 'gpg'
 brew 'heroku'
 brew 'hugo'
 brew 'imagemagick'
+brew 'lastpass-cli', args: ['with-pinentry']
 brew 'memcached', restart_service: true
 brew 'mongo', restart_service: true
 brew 'neo4j', restart_service: true
