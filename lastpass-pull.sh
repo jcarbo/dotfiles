@@ -11,3 +11,11 @@ lpass show "${LPASS_NAME}" &> /dev/null && lpass show --notes "${LPASS_NAME}" > 
 FILENAME="symlinks/.aws/credentials"
 LPASS_NAME="Secure Notes/dotfiles/.aws-credentials"
 lpass show "${LPASS_NAME}" &> /dev/null && lpass show --notes "${LPASS_NAME}" > $FILENAME
+
+FILENAME="licenses.txt"
+LPASS_NAME="Secure Notes/dotfiles/licenses.txt"
+lpass show "${LPASS_NAME}" &> /dev/null && lpass show --notes "${LPASS_NAME}" > $FILENAME
+
+FILENAME=~/Desktop/scrap.txt
+LPASS_NAME="Secure Notes/dotfiles/scrap.txt"
+lpass show "${LPASS_NAME}" &> /dev/null && lpass show --notes "${LPASS_NAME}" > $FILENAME

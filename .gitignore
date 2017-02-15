@@ -17,4 +17,6 @@ symlinks/.aws/credentials
 
 symlinks/.bashrc.secrets
 
+licenses.txt
+
 Gemfile.lock
