@@ -9,8 +9,10 @@ cask 'cyberduck'
 cask 'discord'
 cask 'dropbox'
 cask 'firefox'
+cask 'genymotion'
 cask 'gitter'
 cask 'google-chrome'
+cask 'intel-haxm'
 cask 'istat-menus'
 cask 'iterm2'
 cask 'java'
@@ -26,6 +28,7 @@ cask 'zoomus'
 tap 'caskroom/local-casks', Dir.pwd
 cask 'fuze'
 
+brew 'android-sdk'
 brew 'autojump'
 brew 'bash-completion'
 brew 'elasticsearch', restart_service: true
@@ -48,4 +51,5 @@ brew 'postgresql', restart_service: true
 brew 'qt55'
 brew 'redis', restart_service: true
 brew 'tree'
+brew 'watchman'
 brew 'yarn'

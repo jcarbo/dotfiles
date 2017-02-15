@@ -68,6 +68,9 @@ for name in $(ls -a $SYMLINKS_DIR); do
   ln -sfv $SYMLINKS_DIR/$name $target
 done
 
+# Install Android SDK for React Native development
+# android --verbose update sdk --no-ui --all --filter tools,platform-tools,build-tools-23.0.3,addon-google_apis-google-23,sys-img-x86-android-23,sys-img-x86_64-android-23,sys-img-x86-google_apis-23,sys-img-x86_64-google_apis-23,extra-android-m2repository
+
 # Finder: show hidden files by default
 defaults write com.apple.finder AppleShowAllFiles -bool true
 

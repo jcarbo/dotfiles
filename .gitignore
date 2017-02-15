@@ -1,5 +1,10 @@
 *.DS_Store
 
+symlinks/.android/avd/*.avd/*.img
+symlinks/.android/avd/*.avd/*.lock
+symlinks/.android/cache
+symlinks/.android/adbkey
+
 symlinks/.atom/.apm
 symlinks/.atom/.node-gyp
 symlinks/.atom/blob-store
