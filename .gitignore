@@ -1,5 +1,7 @@
 *.DS_Store
 
+symlinks/.alfred/Alfred.alfredpreferences/preferences/local/
+
 symlinks/.android/avd/*.avd/*.img
 symlinks/.android/avd/*.avd/*.lock
 symlinks/.android/cache
