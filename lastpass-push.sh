@@ -12,12 +12,12 @@ FILENAME="symlinks/.aws/credentials"
 LPASS_NAME="Secure Notes/dotfiles/.aws-credentials"
 cat $FILENAME | lpass edit --non-interactive --notes "${LPASS_NAME}"
 
-FILENAME="licenses.txt"
-LPASS_NAME="Secure Notes/dotfiles/licenses.txt"
+FILENAME="symlinks/.ngrok2/ngrok.yml"
+LPASS_NAME="Secure Notes/dotfiles/.ngrok2-ngrok.yml"
 cat $FILENAME | lpass edit --non-interactive --notes "${LPASS_NAME}"
 
-FILENAME=~/Desktop/scrap.txt
-LPASS_NAME="Secure Notes/dotfiles/scrap.txt"
+FILENAME="licenses.txt"
+LPASS_NAME="Secure Notes/dotfiles/licenses.txt"
 cat $FILENAME | lpass edit --non-interactive --notes "${LPASS_NAME}"
 
 lpass sync --background

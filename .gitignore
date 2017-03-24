@@ -19,6 +19,8 @@ symlinks/.aws/credentials
 
 symlinks/.bashrc.secrets
 
+symlinks/.ngrok2
+
 licenses.txt
 
 Gemfile.lock
