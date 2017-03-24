@@ -15,6 +15,7 @@ brew bundle --verbose --no-upgrade
 
 # Post-brew
 brew link qt55 --force
+brew link imagemagick@6 --force
 mkdir -p ~/.nvm
 # Install the LastPass binary
 # open /usr/local/Caskroom/lastpass/latest/LastPass\ Installer.app/

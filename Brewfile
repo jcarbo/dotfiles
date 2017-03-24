@@ -18,6 +18,7 @@ cask 'iterm2'
 cask 'java'
 cask 'joinme'
 cask 'lastpass'
+cask 'ngrok'
 cask 'recordit'
 cask 'slack-beta'
 cask 'spotify'
@@ -37,7 +38,7 @@ brew 'gpg-agent'
 brew 'gpg'
 brew 'heroku'
 brew 'hugo'
-brew 'imagemagick'
+brew 'imagemagick@6' # See: http://stackoverflow.com/a/41678770/825269
 brew 'lastpass-cli', args: ['with-pinentry']
 brew 'memcached', restart_service: true
 brew 'mongo', restart_service: true
