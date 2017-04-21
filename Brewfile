@@ -24,11 +24,15 @@ cask 'recordit'
 cask 'slack-beta'
 cask 'spotify'
 cask 'vlc'
+cask 'xquartz'
 cask 'zoomus'
 
 # Local formulae
 tap 'caskroom/local-casks', Dir.pwd
 cask 'fuze'
+
+# Formulae
+tap 'homebrew/science'
 
 brew 'autojump'
 brew 'bash-completion'
@@ -50,6 +54,7 @@ brew 'openssl'
 brew 'phantomjs'
 brew 'postgresql', restart_service: true
 brew 'qt55'
+brew 'r'
 brew 'redis', restart_service: true
 brew 'tree'
 brew 'watchman'
