@@ -2,6 +2,7 @@ cask_args appdir: '/Applications'
 tap 'caskroom/versions'
 
 cask 'alfred'
+cask 'android-sdk'
 cask 'android-studio'
 cask 'atom'
 cask 'bettertouchtool'
@@ -29,7 +30,6 @@ cask 'zoomus'
 tap 'caskroom/local-casks', Dir.pwd
 cask 'fuze'
 
-brew 'android-sdk'
 brew 'autojump'
 brew 'bash-completion'
 brew 'elasticsearch', restart_service: true
