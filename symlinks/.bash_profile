@@ -24,3 +24,6 @@ if [ -S "${GPG_AGENT_INFO%%:*}" ]; then
 else
   eval $( gpg-agent --daemon --write-env-file ~/.gpg-agent-info --default-cache-ttl 34560000 --max-cache-ttl 34560000 )
 fi
+
+# Needed to install rmagick gem
+export PKG_CONFIG_PATH=/usr/local/opt/imagemagick@6/lib/pkgconfig

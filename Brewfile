@@ -1,6 +1,7 @@
 cask_args appdir: '/Applications'
 tap 'caskroom/versions'
 
+cask '1password'
 cask 'alfred'
 cask 'android-sdk'
 cask 'android-studio'

@@ -23,8 +23,9 @@
   "exception-reporting":
     userId: "7d314521-3b6a-7f88-7007-238765ca1a12"
   "fold-functions": {}
-  linter:
-    lintOnFlyInterval: 1000
+  linter: {}
+  "linter-ui-default":
+    showPanel: true
   "markdown-preview-plus-opener":
     closePreviewWhenClosingEditor: true
   metrics:
@@ -32,6 +33,9 @@
   "package-sync":
     createOnChange: true
     forceOverwrite: true
+  "prettier-atom":
+    formatOnSaveOptions: {}
+    useEslint: true
   "release-notes":
     viewedVersion: "0.73.0"
   "tree-view": {}

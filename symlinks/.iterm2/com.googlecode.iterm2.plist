@@ -65,19 +65,19 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>1169 110 445 103 0 0 1680 1027 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>530 477 620 392 0 0 1680 1027 </string>
+	<string>415 410 700 459 0 0 1680 1027 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>203 1196 606 456 -126 1050 1920 1057 </string>
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>306 514 796 473 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>7 4 1060 608 0 0 1680 1027 </string>
+	<string>0 2 1060 552 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>8 378 1060 608 0 0 1680 1027 </string>
+	<string>0 2 1060 608 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>0 419 1060 608 0 0 1680 1027 </string>
+	<string>128 1479 1060 608 -126 1050 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
-	<string>0 419 1060 608 0 0 1680 1027 </string>
+	<string>-126 1499 1060 608 -126 1050 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
 	<string>0 187 1060 608 0 0 1680 1027 </string>
 	<key>New Bookmarks</key>
@@ -751,7 +751,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>59889DE8-2134-4402-88D5-D980D8954DD4</string>
 	<key>NoSyncLastTipTime</key>
-	<real>508867849.974554</real>
+	<real>512418174.51103997</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -775,6 +775,27 @@
 		<string>0009</string>
 		<string>0010</string>
 		<string>0011</string>
+		<string>0012</string>
+		<string>0013</string>
+		<string>0014</string>
+		<string>0015</string>
+		<string>0016</string>
+		<string>0017</string>
+		<string>0018</string>
+		<string>0019</string>
+		<string>0020</string>
+		<string>0021</string>
+		<string>0022</string>
+		<string>0023</string>
+		<string>0024</string>
+		<string>0025</string>
+		<string>0026</string>
+		<string>0027</string>
+		<string>0028</string>
+		<string>0029</string>
+		<string>0030</string>
+		<string>0031</string>
+		<string>0032</string>
 	</array>
 	<key>PointerActions</key>
 	<dict>
@@ -822,10 +843,12 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-02-15T13:51:01Z</date>
+	<date>2017-03-28T20:00:38Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
+	<false/>
+	<key>ShowFullScreenTabBar</key>
 	<false/>
 	<key>TabStyle</key>
 	<integer>1</integer>

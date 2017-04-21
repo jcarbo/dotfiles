@@ -30,6 +30,7 @@ bundle
 
 # Install npm packages
 yarn global add react-native-cli
+yarn global add react-native-git-upgrade
 
 # Sync files from lastpass
 sh lastpass-pull.sh
