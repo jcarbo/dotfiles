@@ -48,7 +48,8 @@ alias cp="cp -i"         # Prompt before overwriting files via cp
 alias mv="mv -i"         # Prompt before overwriting files via mv
 
 # Create aliases for commonly used commands.
-alias ll="ls -laG"
+# alias ll="ls -laG"
+alias ll="gls -l --all --color --group-directories-first --human-readable"
 
 export LC_CTYPE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8

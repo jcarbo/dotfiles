@@ -36,6 +36,7 @@ tap 'homebrew/science'
 
 brew 'autojump'
 brew 'bash-completion'
+brew 'coreutils'
 brew 'elasticsearch', restart_service: true
 brew 'git'
 brew 'gpg-agent'
