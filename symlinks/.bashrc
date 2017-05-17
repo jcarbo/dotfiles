@@ -2,8 +2,6 @@
 # Bourne Again SHell init file.
 #
 
-export LOGRAGE_ENABLED=true
-
 # For Contactually
 alias hc="heroku run rails console"
 alias hl="heroku logs --tail"

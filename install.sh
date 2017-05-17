@@ -39,7 +39,7 @@ sh lastpass-pull.sh
 sh symlinks.sh
 
 # Install Android SDK for React Native development
-# android --verbose update sdk --no-ui --all --filter tools,platform-tools,build-tools-23.0.3,build-tools-25.0.2,addon-google_apis-google-23,sys-img-x86-android-23,sys-img-x86_64-android-23,sys-img-x86-google_apis-23,sys-img-x86_64-google_apis-23,extra-android-m2repository,extra-google-google_play_services,extra-google-m2repository
+# sdkmanager --verbose "tools" "platform-tools" "platforms;android-23" "build-tools;23.0.1" "build-tools;25.0.2" "add-ons;addon-google_apis-google-23" "system-images;android-23;default;x86" "system-images;android-23;default;x86_64" "system-images;android-23;google_apis;x86" "system-images;android-23;google_apis;x86_64" "extras;android;m2repository" "extras;google;google_play_services" "extras;google;m2repository"
 
 # Finder: show hidden files by default
 defaults write com.apple.finder AppleShowAllFiles -bool true

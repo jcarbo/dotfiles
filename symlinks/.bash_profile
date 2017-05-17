@@ -16,7 +16,7 @@ export EDITOR="atom -w"
 export NVM_DIR="$HOME/.nvm"
 [[ -s $(brew --prefix)/opt/nvm/nvm.sh ]] && source $(brew --prefix)/opt/nvm/nvm.sh
 
-export ANDROID_HOME=$(brew --prefix)/opt/android-sdk
+export ANDROID_HOME=$(brew --prefix)/share/android-sdk
 
 [ -f ~/.gpg-agent-info ] && source ~/.gpg-agent-info
 if [ -S "${GPG_AGENT_INFO%%:*}" ]; then
