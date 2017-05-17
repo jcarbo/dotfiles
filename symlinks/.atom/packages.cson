@@ -30,6 +30,7 @@ packages: [
   "react"
   "set-syntax"
   "sort-lines"
+  "split-diff"
   "Sublime-Style-Column-Selection"
   "yard"
 ]

@@ -25,6 +25,7 @@
   "fold-functions": {}
   linter: {}
   "linter-ui-default":
+    panelHeight: 43
     showPanel: true
   "markdown-preview-plus-opener":
     closePreviewWhenClosingEditor: true
