@@ -2,11 +2,6 @@
 # Bourne Again SHell init file.
 #
 
-# For Contactually
-alias hc="heroku run rails console"
-alias hl="heroku logs --tail"
-alias be="bundle exec"
-
 alias npm-exec='PATH=$(npm bin):$PATH'
 
 # For GPG: http://unix.stackexchange.com/a/257065
