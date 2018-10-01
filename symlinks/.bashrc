@@ -2,7 +2,15 @@
 # Bourne Again SHell init file.
 #
 
+# For Gusto
+export DEFAULT_OWNING_MISSION=Payroll
+export DEFAULT_OWNING_TEAM="Payments & Filings"
+
 alias npm-exec='PATH=$(npm bin):$PATH'
+alias be='bundle exec'
+
+# Alias hub to git
+eval "$(hub alias -s)"
 
 # For GPG: http://unix.stackexchange.com/a/257065
 export GPG_TTY=$(tty)
@@ -24,6 +32,11 @@ fi
 
 set autolist
 set filesc
+
+export GOPATH=$HOME/go
+export GOROOT=/usr/local/opt/go/libexec
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin
 
 # Set the PATH environment variable.
 export PATH=$PATH:.
@@ -57,7 +70,7 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
   PS1='\[\e[32m\]\u: \W$(__git_ps1 "[%s]") \$\[\e[m\] '
 fi
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+PATH=$PATH:$HOME/.rvm/bin:$(yarn global bin)
 
 # Newer version (>=1.7.10) of git merge default enter into an interactive session. You have to add --no-edit argument
 # or add environment variable GIT_MERGE_AUTOEDIT=no to suppress an interactive session

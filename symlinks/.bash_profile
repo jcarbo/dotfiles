@@ -5,7 +5,8 @@ source $HOME/.bashrc
 [[ -s "$HOME/.bashrc.secrets" ]] && source "$HOME/.bashrc.secrets"
 
 # export EDITOR="subl -w"
-export EDITOR="atom-beta -w"
+# export EDITOR="atom-beta -w"
+export EDITOR="atom -w"
 
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
 [[ -s $(brew --prefix)/etc/bash_completion ]] && . $(brew --prefix)/etc/bash_completion

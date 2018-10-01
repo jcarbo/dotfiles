@@ -16,3 +16,6 @@
 #   'ctrl-P': 'core:move-up'
 #   'ctrl-p': 'core:move-down'
 #
+
+'body':
+  'shift-cmd-R shift-cmd-R': 'rails-rspec:toggle-spec-file'
