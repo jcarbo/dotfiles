@@ -9,8 +9,15 @@ export DEFAULT_OWNING_TEAM="Payments & Filings"
 alias npm-exec='PATH=$(npm bin):$PATH'
 alias be='bundle exec'
 
-# Alias hub to git
-eval "$(hub alias -s)"
+with_panda()
+{
+    rm -f ~/workspace/zenpayroll/tmp/no-panda.txt;
+    eval $*;
+    touch ~/workspace/zenpayroll/tmp/no-panda.txt
+}
+
+scratch() { code ~/Desktop/scratch; [[ ! -z "$1" ]] && code ~/Desktop/scratch/$(date +%F)-$1; }
+# alias scratch='code ~/Desktop/scratch ~/Desktop/scratch/$(date +%F)'
 
 # For GPG: http://unix.stackexchange.com/a/257065
 export GPG_TTY=$(tty)
@@ -61,6 +68,9 @@ export LC_CTYPE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
 PS1='\u: \W \$ '
+if [ $ITERM_SESSION_ID ]; then
+  PROMPT_COMMAND='echo -ne "\033];${PWD##*/}\007"'
+fi
 
 # See: http://blog.bitfluent.com/post/27983389/git-utilities-you-cant-live-without
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
@@ -68,6 +78,9 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
   GIT_PS1_SHOWUNTRACKEDFILES=true
   #PS1='\u: \W$(__git_ps1 "[%s]") \$ '
   PS1='\[\e[32m\]\u: \W$(__git_ps1 "[%s]") \$\[\e[m\] '
+  # if [ $ITERM_SESSION_ID ]; then
+  #   PROMPT_COMMAND='echo -ne "\033];${PWD##*/}$(__git_ps1 "[%s]")\007"';"${PROMPT_COMMAND}"
+  # fi
 fi
 
 PATH=$PATH:$HOME/.rvm/bin:$(yarn global bin)

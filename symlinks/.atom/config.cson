@@ -1,4 +1,12 @@
 "*":
+  "activate-power-mode":
+    autoToggle: false
+    playAudio:
+      enabled: true
+      volume: 0.05
+    plugins:
+      playAudio: true
+      screenShake: true
   core:
     customFileTypes:
       "source.css.less": [
@@ -9,8 +17,6 @@
         "js"
       ]
     disabledPackages: [
-      "rubocop-auto-correct"
-      "linter-rubocop"
       "markdown-preview"
     ]
     packagesWithKeymapsDisabled: [
@@ -31,25 +37,30 @@
   "exception-reporting":
     userId: "7d314521-3b6a-7f88-7007-238765ca1a12"
   "fold-functions": {}
+  "fuzzy-finder":
+    scoringSystem: "fast"
+    useRipGrep: true
   "git-blame":
-    columnWidth: 262
+    columnWidth: 331
   hyperclick:
     darwinTriggerKeys: "altKey,metaKey"
   linter:
+    disabledProviders: [
+      "RuboCop"
+    ]
     lintOnChangeInterval: 1000
     lintOnOpen: false
   "linter-ui-default":
     panelHeight: 81
+  "markdown-preview-plus":
+    syntaxThemeName: "one-dark-syntax"
   "markdown-preview-plus-opener":
     closePreviewWhenClosingEditor: true
   metrics:
     userId: "2c69c6a11ce23ba27f7014861bd582439a757965"
-  "package-sync":
-    createOnChange: true
-    forceOverwrite: true
+  "package-sync": {}
   "prettier-atom":
     formatOnSaveOptions:
-      enabled: true
       showInStatusBar: true
     prettierOptions:
       printWidth: 100

@@ -5,8 +5,8 @@ tap 'caskroom/versions'
 cask 'alfred'
 # cask 'android-sdk'
 # cask 'android-studio'
-cask 'atom-beta'
-cask 'bettertouchtool'
+cask 'atom'
+# cask 'bettertouchtool'
 # cask 'cyberduck'
 # cask 'discord'
 cask 'docker'
@@ -17,15 +17,17 @@ cask 'firefox'
 # cask 'gitter'
 # cask 'google-chrome'
 # cask 'intel-haxm'
-cask 'istat-menus'
+# cask 'istat-menus'
 cask 'iterm2'
-# cask 'java'
+cask 'java'
+cask 'java8'
 # cask 'joinme'
 # cask 'lastpass'
 # cask 'ngrok'
 # cask 'recordit'
 # cask 'slack-beta'
-cask 'spotify'
+cask 'spectacle'
+# cask 'spotify'
 # cask 'vlc'
 # cask 'xquartz'
 # cask 'zoomus'
@@ -43,26 +45,24 @@ brew 'coreutils'
 brew 'elasticsearch', restart_service: true
 brew 'ghostscript'
 brew 'git'
-brew 'gpg-agent'
-brew 'gpg'
+# brew 'gpg-agent'
+# brew 'gpg'
 brew 'graphicsmagick'
 brew 'heroku'
 brew 'hugo'
 brew 'imagemagick@6' # See: http://stackoverflow.com/a/41678770/825269
-brew 'lastpass-cli', args: ['with-pinentry']
+# brew 'lastpass-cli', args: ['with-pinentry']
 brew 'lbzip2'
 brew 'memcached', restart_service: true
 # brew 'mongo', restart_service: true
-brew 'mysql', restart_service: true
+brew 'mysql@5.7', restart_service: true
 # brew 'neo4j', restart_service: true
 brew 'node'
 brew 'npm'
 brew 'nvm'
 brew 'openssl'
-brew 'phantomjs'
 brew 'poppler'
-brew 'postgresql', restart_service: true
-brew 'qt55'
+# brew 'postgresql', restart_service: true
 brew 'r'
 brew 'redis', restart_service: true
 brew 'tesseract'

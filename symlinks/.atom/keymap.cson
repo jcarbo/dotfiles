@@ -19,3 +19,6 @@
 
 'body':
   'shift-cmd-R shift-cmd-R': 'rails-rspec:toggle-spec-file'
+
+'atom-workspace':
+  'shift-cmd-E shift-cmd-E': 'jump-to:expand'

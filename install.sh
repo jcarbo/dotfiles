@@ -29,13 +29,13 @@ fi
 bundle
 
 # Install npm packages
-yarn global add react-native-cli
-yarn global add react-native-git-upgrade
-yarn global add create-react-app
-yarn global add create-react-native-app
+# yarn global add react-native-cli
+# yarn global add react-native-git-upgrade
+# yarn global add create-react-app
+# yarn global add create-react-native-app
 
 # Sync files from lastpass
-sh lastpass-pull.sh
+# sh lastpass-pull.sh
 
 # Set up symlinks
 sh symlinks.sh
